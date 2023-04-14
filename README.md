@@ -28,6 +28,18 @@ mySNdl = SNdl(LocalDirectory="path/to/SoccerNet")
 mySNdl.downloadDataTask(task="jersey-2023", split=["train","test","challenge"])
 ```
 
+## Dataset format
+Dataset is split into three folders: train/test/challenge. Each folder contains a json grountruth file (except the challenge set) and an "image" folder.
+In the image folder, there is one folder per player with a list of thumbnails: each folder is named after the player ID.
+The groundtruth json file is a one level python dictionnary with player ID (a String) as keys and player jersey number (an Integer) as value.
+A value of "-1" is used to indicate the jersey number is not visible.
+
+
+## Submission format
+The file to submit for the challenge/test set on [EvalAI](https://eval.ai/web/challenges/challenge-page/1952/overview) must have the same format as the ground truth file: a dictionnary mapping player ID (a String) to player jersey number (an Integer). 
+A value of "-1" must be used to indicate the jersey number is not visible.
+
+
 ## Our other Challenges
 
 Check out our other challenges related to SoccerNet!
