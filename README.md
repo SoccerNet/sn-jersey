@@ -128,6 +128,23 @@ Check out our other challenges related to SoccerNet!
 ## Citation
 
 Please cite our work if you use our dataset:
+
+```bibtex
+@article{Cioppa2023SoccerNetChallenge-arxiv,
+	title = {{SoccerNet} 2023 Challenges Results},
+	author = {Cioppa, Anthony and Giancola, Silvio and Somers, Vladimir and Magera, Floriane and Zhou, Xin and Mkhallati, Hassan and Deli{\`e}ge, Adrien and Held, Jan and Hinojosa, Carlos and Mansourian, Amir M. and Miralles, Pierre and Barnich, Olivier and De Vleeschouwer, Christophe and Alahi, Alexandre and Ghanem, Bernard and Van Droogenbroeck, Marc and Kamal, Abdullah and Maglo, Adrien and Clap{\'e}s, Albert and Abdelaziz, Amr and Xarles, Artur and Orcesi, Astrid and Scott, Atom and Liu, Bin and Lim, Byoungkwon and Chen, Chen and Deuser, Fabian and Yan, Feng and Yu, Fufu and Shitrit, Gal and Wang, Guanshuo and Choi, Gyusik and Kim, Hankyul and Guo, Hao and Fahrudin, Hasby and Koguchi, Hidenari and Ard{\"o}, H\r{a}kan and Salah, Ibrahim and Yerushalmy, Ido and Muhammad, Iftikar and Uchida, Ikuma and Be'ery, Ishay and Rabarisoa, Jaonary and Lee, Jeongae and Fu, Jiajun and Yin, Jianqin and Xu, Jinghang and Nang, Jongho and Denize, Julien and Li, Junjie and Zhang, Junpei and Kim, Juntae and Synowiec, Kamil and Kobayashi, Kenji and Zhang, Kexin and Habel, Konrad and Nakajima, Kota and Jiao, Licheng and Ma, Lin and Wang, Lizhi and Wang, Luping and Li, Menglong and Zhou, Mengying and Nasr, Mohamed and Abdelwahed, Mohamed and Liashuha, Mykola and Falaleev, Nikolay and Oswald, Norbert and Jia, Qiong and Pham, Quoc-Cuong and Song, Ran and H{\'e}rault, Romain and Peng, Rui and Chen, Ruilong and Liu, Ruixuan and Baikulov, Ruslan and Fukushima, Ryuto and Escalera, Sergio and Lee, Seungcheon and Chen, Shimin and Ding, Shouhong and Someya, Taiga and Moeslund, Thomas B. and Li, Tianjiao and Shen, Wei and Zhang, Wei and Li, Wei and Dai, Wei and Luo, Weixin and Zhao, Wending and Zhang, Wenjie and Yang, Xinquan and Ma, Yanbiao and Joo, Yeeun and Zeng, Yingsen and Gan, Yiyang and Zhu, Yongqiang and Zhong, Yujie and Ruan, Zheng and Li, Zhiheng and Huangi, Zhijian and Meng, Ziyu},
+	journal = arxiv,
+	volume = {abs/2309.06006},
+	year = {2023},
+	publisher = {arXiv},
+	eprint = {2309.06006},
+	keywords = {SoccerNet, Challenge},
+	eprinttype = {arXiv},
+	doi = {10.48550/arXiv.2309.06006},
+	url = {https://doi.org/10.48550/arXiv.2309.06006}
+}
+```
+
 ```bibtex
 @article{Cioppa2022Scaling,
   title={Scaling up SoccerNet with multi-view spatial localization and re-identification},
