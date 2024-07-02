@@ -126,8 +126,33 @@ Check out our other challenges related to SoccerNet!
 - [Dense Video Captioning](https://github.com/SoccerNet/sn-caption)
 
 ## Citation
+The SoccerNet Jersey Number Recognition dataset introduced in this repository is derived from the [sn-gamestate](https://github.com/SoccerNet/sn-gamestate) and [sn-tracking](https://github.com/SoccerNet/sn-tracking) datasets. 
+Four key authors contributed to building the sn-jersey benchmark: Vladimir Somers, Amir Mansourian, Anthony Cioppa, Silvio Giancola (no specific order).
+If you use this dataset, please make sure to cite all authors to acknowledge their work.
+Here is a list of relevant work to cite:
 
-Please cite our work if you use our dataset:
+```bibtex
+@inproceedings{Somers2024SoccerNetGameState,
+        title = {{SoccerNet} Game State Reconstruction: End-to-End Athlete Tracking and Identification on a Minimap},
+        author = {Somers, Vladimir and Joos, Victor and Giancola, Silvio and Cioppa, Anthony and Ghasemzadeh, Seyed Abolfazl and Magera, Floriane and Standaert, Baptiste and Mansourian, Amir Mohammad and Zhou, Xin and Kasaei, Shohreh and Ghanem, Bernard and Alahi, Alexandre and Van Droogenbroeck, Marc and De Vleeschouwer, Christophe},
+        booktitle = cvsports,
+        month = Jun,
+        year = {2024},
+        address = city-seattle,
+        keywords = {}
+}
+```
+
+```bibtex
+@article{Cioppa2022Scaling,
+  title={Scaling up SoccerNet with multi-view spatial localization and re-identification},
+  author={Anthony Cioppa and Adrien Deli{\`e}ge and Silvio Giancola and Bernard Ghanem and Marc Van Droogenbroeck},
+  journal={Scientific Data},
+  year={2022},
+  month={June},
+  volume={9}
+}
+```
 
 ```bibtex
 @article{Cioppa2023SoccerNetChallenge-arxiv,
@@ -146,12 +171,11 @@ Please cite our work if you use our dataset:
 ```
 
 ```bibtex
-@article{Cioppa2022Scaling,
-  title={Scaling up SoccerNet with multi-view spatial localization and re-identification},
-  author={Anthony Cioppa and Adrien Deli{\`e}ge and Silvio Giancola and Bernard Ghanem and Marc Van Droogenbroeck},
-  journal={Scientific Data},
-  year={2022},
-  month={June},
-  volume={9}
+@inproceedings{cioppa2022soccernet,
+  title={SoccerNet-Tracking: Multiple Object Tracking Dataset and Benchmark in Soccer Videos},
+  author={Cioppa, Anthony and Giancola, Silvio and Deliege, Adrien and Kang, Le and Zhou, Xin and Cheng, Zhiyu and Ghanem, Bernard and Van Droogenbroeck, Marc},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3491--3502},
+  year={2022}
 }
 ```
